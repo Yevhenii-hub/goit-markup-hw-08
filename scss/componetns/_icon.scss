@@ -1,0 +1,26 @@
+.icon-envelope {
+  vertical-align: middle;
+  height: 20px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.icon-phone {
+  vertical-align: middle;
+  height: 20px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer-icon {
+  @extend %df;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.social {
+  @extend %df;
+  height: 20px;
+  width: 20px;
+}

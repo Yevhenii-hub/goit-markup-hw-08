@@ -1,0 +1,58 @@
+.headline {
+  @extend %font;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-color;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  p {
+    @extend %font;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+.elements {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.icon-centr {
+  width: 65px;
+  height: 65px;
+}
+.bacground-icons {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  @extend %df;
+  align-items: center;
+  justify-content: center;
+}
+.bacground {
+  @extend %df;
+  justify-content: center;
+
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.text-aggregate {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+
+  &:last-child {
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,40 @@
+.section.service {
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/fon.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-color: gray;
+}
+.btn-centr {
+  @extend %font;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  border: none;
+  border-radius: 4px;
+  color: $white-collor;
+}
+.btn {
+  background: #2196f3;
+  color: #ffffff;
+}
+.caption {
+  @extend %font;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $white-collor;
+}
