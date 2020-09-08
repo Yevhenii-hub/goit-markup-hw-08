@@ -43,7 +43,8 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.workers p, h2 .our-clients, .coments {
+h2,
+.our-team, .name-team, .workers p, h2 .our-clients, .coments {
   font-family: Roboto;
   font-style: normal;
 }
@@ -352,6 +353,7 @@ ul {
 }
 
 .items {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -364,29 +366,22 @@ ul {
   margin-left: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .continer {
     width: 480px;
-    background-color: red;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1169px) {
   .continer {
     width: 768px;
-    background-color: teal;
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1170px) {
   .continer {
-    width: 1140px;
-    background-color: tomato;
+    width: 1170px;
   }
-}
-
-* {
-  outline: 1px solid red;
 }
 
 .logo-header,
@@ -562,6 +557,13 @@ h2,
   display: block;
 }
 
+@media screen and (max-width: 1169px) {
+  h2,
+  .our-team {
+    font-size: 28px;
+  }
+}
+
 .name-team {
   font-weight: 500;
   font-size: 16px;
@@ -581,6 +583,15 @@ h2,
           justify-content: center;
   color: #afb1b8;
   fill: currentColor;
+}
+
+@media screen and (min-width: 1170px) {
+  .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 44px;
+  }
 }
 
 .social-links:hover {
@@ -610,6 +621,14 @@ h2,
   background: #f5f4fa;
 }
 
+@media screen and (min-width: 1170px) {
+  .workers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .perfect.our-team {
   margin-bottom: 50px;
 }
@@ -634,10 +653,24 @@ h2,
   margin-right: 30px;
 }
 
+@media screen and (min-width: 1170px) {
+  .continer .people {
+    width: calc((100% - 90px) / 3);
+  }
+}
+
 .people ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (min-width: 1170px) {
+  .people ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .people {
@@ -685,6 +718,12 @@ h2,
 .social {
   height: 20px;
   width: 20px;
+}
+
+.icon_team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .icon-box {
@@ -740,6 +779,15 @@ h2,
   height: 90px;
 }
 
+@media screen and (min-width: 768px) {
+  .box {
+    width: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .box:last-child {
   margin-right: 0;
 }
@@ -771,6 +819,14 @@ h2,
 
 .regular-clients {
   margin-top: 0;
+}
+
+@media screen and (min-width: 1170px) {
+  .regular-clients {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .svg {

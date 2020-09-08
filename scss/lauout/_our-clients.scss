@@ -48,11 +48,15 @@
   margin-right: 30px;
   height: 90px;
 
+  @media screen and (min-width: 768px) {
+    width: 170px;
+    display: flex;
+  }
+
   &:last-child {
     margin-right: 0;
   }
 }
-// width: 170px; в боксе @extend %df; в боксе
 
 .box:hover {
   color: #2196f3;
@@ -79,8 +83,11 @@
 }
 .regular-clients {
   margin-top: 0;
+  @media screen and (min-width: 1170px) {
+    display: flex;
+  }
 }
-// @extend %df;
+
 .svg {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;

@@ -1,5 +1,6 @@
 h2,
 .our-team {
+  @extend %font;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -7,9 +8,13 @@ h2,
   color: $primary-color;
   text-align: center;
   display: block;
+  @media screen and (max-width: 1169px) {
+    font-size: 28px;
+  }
 }
-// @extend %font;
+
 .name-team {
+  @extend %font;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -17,13 +22,19 @@ h2,
   color: $primary-color;
   text-align: center;
 }
-// @extend %font;
+
 .social-links {
   height: 44px;
   align-items: center;
   justify-content: center;
   color: #afb1b8;
   fill: currentColor;
+
+  @media screen and (min-width: 1170px) {
+    display: flex;
+    width: 44px;
+  }
+
   &:hover {
     border-radius: 50%;
     background-color: #2196f3;
@@ -31,8 +42,7 @@ h2,
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-} // @extend %df;
-// width: 44px; social0links
+}
 
 .social-links-margin {
   background: rgba(255, 255, 255, 0.1);
@@ -50,8 +60,11 @@ h2,
 }
 
 .workers {
-  // @extend %df;
   background: #f5f4fa;
+
+  @media screen and (min-width: 1170px) {
+    display: flex;
+  }
 }
 
 .perfect.our-team {
@@ -80,15 +93,20 @@ h2,
 .continer {
   .people {
     background-color: $white-collor;
-
     margin-right: 30px;
+
+    @media screen and (min-width: 1170px) {
+      width: calc((100% - 90px) / 3);
+    }
   }
 }
-// width: calc((100% - 90px) / 3); в  people
+
 .people {
   ul {
-    // @extend %df;
     justify-content: center;
+    @media screen and (min-width: 1170px) {
+      display: flex;
+    }
   }
 }
 
@@ -100,6 +118,11 @@ h2,
   padding-bottom: 30px;
   & li {
     margin-right: 10px;
+
+    & img {
+      @media screen and (max-width: 768px) {
+      }
+    }
   }
 }
 .team-hover:hover {
