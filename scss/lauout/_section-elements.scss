@@ -25,26 +25,31 @@
 }
 
 .icon-centr {
-  width: 65px;
   height: 65px;
 }
+// width: 65px;
+
 .bacground-icons {
   background-color: #f5f4fa;
   border-radius: 4px;
-  width: 270px;
+
   height: 120px;
-  @extend %df;
+
   align-items: center;
   justify-content: center;
 }
+// width: 270px;
+
 .bacground {
-  @extend %df;
+  // @extend %df;
+  // @extend %df;
+
   justify-content: center;
 
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
 }
+// width: 270px;
 .text-aggregate {
   font-weight: normal;
   font-size: 14px;

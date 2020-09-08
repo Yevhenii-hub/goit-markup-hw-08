@@ -23,13 +23,11 @@ ul {
 }
 
 .items {
-  @extend %df;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
 }
 .continer {
-  // width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -48,3 +46,8 @@ ul {
     background-color: tomato;
   }
 }
+* {
+  outline: 1px solid red;
+}
+// continer // width: 1170px;
+// .items //   @extend %df;

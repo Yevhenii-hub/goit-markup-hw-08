@@ -12,44 +12,34 @@
 }
 
 .firm1 {
-  // display: block;
   height: 48px;
-  width: 43px;
-  // padding: 20px 62px;
 }
+// width: 43px;
 
 .firm2 {
-  // display: block;
   height: 61px;
-  width: 48px;
-  // padding: 13px 59px;
 }
+// width: 48px;
 .firm3 {
-  // display: block;
   height: 43px;
-  width: 41px;
-  // padding: 23px 63px;
 }
+// width: 41px;
 .firm4 {
-  // display: block;
   height: 79px;
-  width: 71px;
-  // padding: 5px 48px;
 }
+// width: 71px;
 .firm5 {
   display: block;
   height: 52px;
-  width: 64px;
-  // padding: 18px 52px;
 }
+// width: 64px;
 .firm6 {
   display: block;
   height: 90px;
-  width: 170px;
 }
+// width: 170px;
 
 .box {
-  @extend %df;
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
@@ -57,13 +47,12 @@
   border-radius: 4px;
   margin-right: 30px;
   height: 90px;
-  width: 170px;
-  // padding: 44px;
 
   &:last-child {
     margin-right: 0;
   }
 }
+// width: 170px; в боксе @extend %df; в боксе
 
 .box:hover {
   color: #2196f3;
@@ -89,9 +78,9 @@
   margin-top: 0;
 }
 .regular-clients {
-  @extend %df;
   margin-top: 0;
 }
+// @extend %df;
 .svg {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;

@@ -1,5 +1,4 @@
 .desc {
-  @extend %df;
   position: absolute;
   font-family: Roboto;
   font-style: normal;
@@ -16,10 +15,13 @@
 
   justify-content: center;
   bottom: 3px;
-  width: 370px;
+
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
+// @extend %df;
+// width: 370px;
+
 .subject {
   @extend %font;
   font-weight: bold;
@@ -41,11 +43,12 @@
 
 .applications {
   position: relative;
-  @extend %df;
+
   margin: 0;
 
   & .content-java {
-    width: calc((100% - 60px) / 2);
     margin-right: 30px;
   }
 }
+// @extend %df;   в апликатионс
+// width: calc((100% - 60px) / 2); сонтент джава

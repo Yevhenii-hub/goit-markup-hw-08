@@ -52,7 +52,6 @@
 }
 
 .flex-header {
-  @extend %df;
   align-items: center;
   border-bottom: 1px solid #ececec;
 
@@ -60,10 +59,10 @@
     list-style-type: none;
   }
 }
+// @extend %df;
 
 .site-nav {
   .list {
-    @extend %df;
     padding-top: 31px;
     padding-bottom: 31px;
 
@@ -78,6 +77,8 @@
     letter-spacing: 0.02em;
   }
 }
+// @extend %df;
+
 .line::after {
   display: block;
   content: '';
@@ -85,12 +86,13 @@
   top: 77px;
 
   bottom: 2px;
-  width: 48px;
+  //
   height: 4px;
 
   background: #2196f3;
   border-radius: 2px;
 }
+// width: 48px;
 
 .line-portfolio:after {
   display: block;
@@ -98,11 +100,11 @@
   position: absolute;
   top: 77px;
   bottom: 2px;
-  width: 78px;
+
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
-}
+} // width: 78px;
 
 .header-item {
   padding-right: 50px;
