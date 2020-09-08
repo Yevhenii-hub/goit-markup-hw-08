@@ -359,11 +359,31 @@ ul {
 }
 
 .continer {
-  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .continer {
+    width: 480px;
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .continer {
+    width: 768px;
+    background-color: teal;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .continer {
+    width: 1140px;
+    background-color: tomato;
+  }
 }
 
 .logo-header,
