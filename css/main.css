@@ -44,7 +44,7 @@
 }
 
 .btn-centr, .caption, .section.elements .headline, .section.elements p, .subject, h2,
-.our-team, .name-team, .workers p, h2 .our-clients, .coments {
+.our-team, .name-team, .workers p, h2 .our-clients, .images h2, .button, .main, .coments {
   font-family: Roboto;
   font-style: normal;
 }
@@ -359,6 +359,14 @@ ul {
   padding: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .continer {
   padding-left: 15px;
   padding-right: 15px;
@@ -467,6 +475,14 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
+@media screen and (min-width: 1170px) {
+  .flex-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .flex-header li {
   list-style-type: none;
 }
@@ -484,6 +500,14 @@ ul {
   letter-spacing: 0.02em;
 }
 
+@media screen and (min-width: 1170px) {
+  .site-nav .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .line::after {
   display: block;
   content: '';
@@ -495,6 +519,12 @@ ul {
   border-radius: 2px;
 }
 
+@media screen and (min-width: 1170px) {
+  .line::after {
+    width: 48px;
+  }
+}
+
 .line-portfolio:after {
   display: block;
   content: '';
@@ -504,6 +534,12 @@ ul {
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
+}
+
+@media screen and (min-width: 1170px) {
+  .line-portfolio:after {
+    width: 78px;
+  }
 }
 
 .header-item {
@@ -624,6 +660,15 @@ use {
   justify-content: center;
   height: 120px;
   background-color: #f5f4fa;
+}
+
+@media screen and (min-width: 1170px) {
+  .bacground-icons {
+    width: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .text-aggregate {
@@ -908,16 +953,40 @@ h2,
   height: 48px;
 }
 
+@media screen and (min-width: 1170px) {
+  .firm1 {
+    width: 43px;
+  }
+}
+
 .firm2 {
   height: 61px;
+}
+
+@media screen and (min-width: 1170px) {
+  .firm2 {
+    width: 48px;
+  }
 }
 
 .firm3 {
   height: 43px;
 }
 
+@media screen and (min-width: 1170px) {
+  .firm3 {
+    width: 41px;
+  }
+}
+
 .firm4 {
   height: 79px;
+}
+
+@media screen and (min-width: 1170px) {
+  .firm4 {
+    width: 71px;
+  }
 }
 
 .firm5 {
@@ -925,9 +994,21 @@ h2,
   height: 52px;
 }
 
+@media screen and (min-width: 1170px) {
+  .firm5 {
+    width: 64px;
+  }
+}
+
 .firm6 {
   display: block;
   height: 90px;
+}
+
+@media screen and (min-width: 1170px) {
+  .firm6 {
+    width: 170px;
+  }
 }
 
 .box {
@@ -1034,6 +1115,26 @@ h2 .our-clients {
   list-style-type: none;
 }
 
+@media screen and (min-width: 1170px) {
+  .images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .images ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .item {
   position: relative;
   margin-right: 30px;
@@ -1041,6 +1142,12 @@ h2 .our-clients {
   border: 1px solid #eeeeee;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media screen and (min-width: 1170px) {
+  .item {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .item:hover {
@@ -1076,6 +1183,12 @@ h2 .our-clients {
           box-sizing: border-box;
   height: 294px;
   overflow: hidden;
+}
+
+@media screen and (min-width: 1170px) {
+  .technical {
+    width: 100%;
+  }
 }
 
 .img {
@@ -1141,6 +1254,14 @@ h2 .our-clients {
           justify-content: center;
   margin-bottom: 50px;
   padding-left: 0;
+}
+
+@media screen and (min-width: 1170px) {
+  .button-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .button-item {
@@ -1219,6 +1340,13 @@ h2 .our-clients {
   margin-right: 0;
 }
 
+@media screen and (min-width: 1170px) {
+  .position {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .footer-text {
   display: block;
   text-transform: uppercase;
@@ -1240,6 +1368,12 @@ h2 .our-clients {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1170px) {
+  .email-footer {
+    width: 358px;
+  }
+}
+
 .button-footer {
   font-weight: bold;
   font-size: 16px;
@@ -1259,6 +1393,14 @@ h2 .our-clients {
   padding-left: 0;
 }
 
+@media screen and (min-width: 1170px) {
+  .disc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .footer-content {
   position: relative;
   height: 252px;
@@ -1267,8 +1409,24 @@ h2 .our-clients {
           align-items: baseline;
 }
 
+@media screen and (min-width: 1170px) {
+  .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .footer-adress {
   margin-right: 67px;
+}
+
+@media screen and (min-width: 1170px) {
+  .footer-mess {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .top {
@@ -1291,6 +1449,12 @@ h2 .our-clients {
   border-radius: 4px;
   color: #ffffff;
   border: none;
+}
+
+@media screen and (min-width: 1170px) {
+  .button-footer {
+    width: 200px;
+  }
 }
 
 .backdrop.is-hidden {

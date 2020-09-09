@@ -55,14 +55,20 @@
   align-items: center;
   border-bottom: 1px solid #ececec;
 
+  @media screen and (min-width: 1170px) {
+    display: flex;
+  }
+
   li {
     list-style-type: none;
   }
 }
-// @extend %df;
 
 .site-nav {
   .list {
+    @media screen and (min-width: 1170px) {
+      display: flex;
+    }
     padding-top: 31px;
     padding-bottom: 31px;
 
@@ -77,7 +83,7 @@
     letter-spacing: 0.02em;
   }
 }
-// @extend %df;
+// @extend %df???
 
 .line::after {
   display: block;
@@ -86,13 +92,14 @@
   top: 77px;
 
   bottom: 2px;
-  //
+  @media screen and (min-width: 1170px) {
+    width: 48px;
+  }
   height: 4px;
 
   background: #2196f3;
   border-radius: 2px;
 }
-// width: 48px;
 
 .line-portfolio:after {
   display: block;
@@ -100,11 +107,14 @@
   position: absolute;
   top: 77px;
   bottom: 2px;
+  @media screen and (min-width: 1170px) {
+    width: 78px;
+  }
 
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
-} // width: 78px;
+}
 
 .header-item {
   padding-right: 50px;

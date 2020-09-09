@@ -27,6 +27,10 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 .continer {
   padding-left: 15px;
@@ -52,5 +56,3 @@ ul {
 // * {
 //   outline: 1px solid grey;
 // }
-// continer // width: 1170px;
-// .items //   @extend %df;

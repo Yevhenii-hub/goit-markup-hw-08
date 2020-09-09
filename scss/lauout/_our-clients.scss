@@ -13,31 +13,53 @@
 
 .firm1 {
   height: 48px;
+
+  @media screen and (min-width: 1170px) {
+    width: 43px;
+  }
 }
-// width: 43px;
 
 .firm2 {
   height: 61px;
+
+  @media screen and (min-width: 1170px) {
+    width: 48px;
+  }
 }
-// width: 48px;
+
 .firm3 {
   height: 43px;
+
+  @media screen and (min-width: 1170px) {
+    width: 41px;
+  }
 }
-// width: 41px;
+
 .firm4 {
   height: 79px;
+
+  @media screen and (min-width: 1170px) {
+    width: 71px;
+  }
 }
-// width: 71px;
+
 .firm5 {
   display: block;
   height: 52px;
+
+  @media screen and (min-width: 1170px) {
+    width: 64px;
+  }
 }
-// width: 64px;
+
 .firm6 {
   display: block;
   height: 90px;
+
+  @media screen and (min-width: 1170px) {
+    width: 170px;
+  }
 }
-// width: 170px;
 
 .box {
   align-items: center;
