@@ -43,12 +43,6 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.btn-centr, .caption, .section.elements .headline, .section.elements p, .subject, h2,
-.our-team, .name-team, .workers p, h2 .our-clients, .images h2, .button, .main, .coments {
-  font-family: Roboto;
-  font-style: normal;
-}
-
 .footer-icon, .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -619,23 +613,24 @@ use {
   color: #ffffff;
 }
 
-.section.elements .headline {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.section.elements p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+@media screen and (max-width: 767px) {
+  .section.elements .headline {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .section.elements p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
 }
 
 .elements {
@@ -660,6 +655,14 @@ use {
   justify-content: center;
   height: 120px;
   background-color: #f5f4fa;
+}
+
+@media screen and (max-width: 480px) {
+  .bacground-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1170px) {

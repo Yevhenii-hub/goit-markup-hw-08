@@ -39,7 +39,6 @@
 
 .images {
   h2 {
-    @extend %font;
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
@@ -112,7 +111,6 @@
 }
 
 .button {
-  @extend %font;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -142,7 +140,6 @@
 }
 
 .main {
-  @extend %font;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;

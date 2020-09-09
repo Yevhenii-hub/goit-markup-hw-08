@@ -14,7 +14,6 @@
   background-color: gray;
 }
 .btn-centr {
-  @extend %font;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -32,7 +31,6 @@
   color: #ffffff;
 }
 .caption {
-  @extend %font;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;

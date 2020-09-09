@@ -1,7 +1,6 @@
 .section.elements {
   @media screen and (max-width: 767px) {
     .headline {
-      @extend %font;
       font-weight: bold;
       font-size: 14px;
       line-height: 16px;
@@ -14,7 +13,6 @@
     }
 
     p {
-      @extend %font;
       font-weight: normal;
       font-size: 14px;
       line-height: 24px;

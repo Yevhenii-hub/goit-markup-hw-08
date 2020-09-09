@@ -43,12 +43,6 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-h2,
-.our-team, .name-team, .workers p, h2 .our-clients, .images h2, .button, .main, .coments {
-  font-family: Roboto;
-  font-style: normal;
-}
-
 .footer-icon, .social {
   display: -webkit-box;
   display: -ms-flexbox;
