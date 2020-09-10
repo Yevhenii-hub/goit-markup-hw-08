@@ -52,6 +52,11 @@ h2,
   padding-top: 94px;
   padding-bottom: 94px;
 
+  @media screen and(max-width:768px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
   & {
     background-color: #f5f4fa;
   }
@@ -94,6 +99,9 @@ h2,
 
     @media screen and (min-width: 1170px) {
       width: calc((100% - 90px) / 3);
+    }
+    @media screen and(max-width:768px) {
+      margin-bottom: 30px;
     }
   }
 }

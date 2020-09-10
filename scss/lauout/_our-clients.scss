@@ -70,12 +70,27 @@
   margin-right: 30px;
   height: 90px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1170px) {
     width: 170px;
     display: flex;
   }
+  @media screen and (max-width: 767px) {
+    width: 210px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+  }
 
   &:last-child {
+    margin-right: 0;
+  }
+}
+
+.column {
+  margin-right: 30px;
+
+  & :last-child {
     margin-right: 0;
   }
 }
