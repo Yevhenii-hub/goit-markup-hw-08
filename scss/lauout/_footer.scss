@@ -20,8 +20,16 @@
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
 
+  @media screen and (max-width: 767px) {
+    margin-bottom: 8px;
+  }
+
   &:last-child {
     margin-bottom: 0;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    }
   }
 }
 
@@ -29,7 +37,7 @@
   justify-content: center;
   align-items: center;
   margin-right: 61px;
-  height: 118px;
+  // height: 118px;
 }
 .position {
   display: block;
@@ -47,6 +55,17 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+}
+
+.subscribe {
+  @media screen and (max-width: 767px) {
+    margin-right: 77px;
+  }
 }
 .email-footer {
   padding: 16px;
@@ -55,6 +74,12 @@
   height: 50px;
   @media screen and (min-width: 1170px) {
     width: 358px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 440px;
+    margin-bottom: 20px;
+    justify-content: center;
   }
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -74,6 +99,11 @@
   position: absolute;
   top: 120px;
   right: 37px;
+
+  @media screen and (max-width: 767px) {
+    top: 503px;
+    right: 173px;
+  }
 }
 .disc {
   justify-content: start;
@@ -81,6 +111,11 @@
 
   @media screen and (min-width: 1170px) {
     display: flex;
+  }
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
   }
 }
 .footer-content {
@@ -91,6 +126,11 @@
 
   @media screen and (min-width: 1170px) {
     display: flex;
+  }
+  @media screen and (max-width: 767px) {
+    text-align: center;
+
+    height: 603px;
   }
 }
 .footer-adress {
@@ -107,6 +147,16 @@
   margin-top: 20px;
   margin-bottom: 9px;
   color: $white-collor;
+
+  @media screen and (min-width: 767px) {
+    font-size: 24px;
+  }
+}
+
+.small {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .button-footer {
   position: absolute;
@@ -125,5 +175,11 @@
 
   @media screen and (min-width: 1170px) {
     width: 200px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 200px;
+    height: 50px;
+    top: 490px;
+    left: 80px;
   }
 }
