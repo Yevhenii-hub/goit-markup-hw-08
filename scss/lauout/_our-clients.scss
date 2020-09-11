@@ -2,6 +2,7 @@
   fill: #afb1b8;
   display: block;
   color: #afb1b8;
+  // width: 100%;
 
   &:hover {
     fill: #2196f3;
@@ -88,6 +89,7 @@
 }
 
 .column {
+  // width: calc((100% - 30px) / 2);
   margin-right: 30px;
 
   & :last-child {
