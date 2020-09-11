@@ -39,17 +39,17 @@ ul {
   margin-left: auto;
 
   @media screen and (min-width: 480px) and (max-width: 767px) {
-    width: 450px;
+    width: 480px;
     // background-color: red;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1169px) {
-    width: 738px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 768px;
     // background-color: teal;
   }
 
-  @media screen and (min-width: 1170px) {
-    width: 1170px;
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
     // background-color: tomato;
   }
 }
