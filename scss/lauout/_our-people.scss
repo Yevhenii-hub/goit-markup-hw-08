@@ -28,7 +28,7 @@ h2,
   color: #afb1b8;
   fill: currentColor;
 
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     width: 44px;
   }
@@ -71,7 +71,7 @@ h2,
 .workers {
   background: #f5f4fa;
 
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
@@ -103,7 +103,7 @@ h2,
     background-color: $white-collor;
     margin-right: 30px;
 
-    @media screen and (min-width: 1170px) {
+    @media screen and (min-width: 1200px) {
       width: calc((100% - 90px) / 3);
     }
     @media screen and(max-width:768px) {
@@ -115,7 +115,7 @@ h2,
 .people {
   ul {
     justify-content: center;
-    @media screen and (min-width: 1170px) {
+    @media screen and (min-width: 1200px) {
       display: flex;
     }
   }
