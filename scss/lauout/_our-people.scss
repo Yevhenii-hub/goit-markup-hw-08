@@ -8,7 +8,7 @@ h2,
   text-align: center;
   display: block;
 
-  @media screen and (max-width: 1999px) {
+  @media screen and (max-width: 1199px) {
     font-size: 28px;
   }
 }
@@ -29,7 +29,6 @@ h2,
   color: #afb1b8;
   fill: currentColor;
 
-  color: #ffffff;
   display: flex;
   width: 44px;
 
@@ -38,7 +37,7 @@ h2,
   //   width: 44px;
   // }
 
-  // @media screen and (max-width: 1999px) {
+  // @media screen and (max-width: 1199px) {
   //   color: #ffffff;
   //   display: flex;
   //   width: 44px;
@@ -76,7 +75,7 @@ h2,
 .workers {
   background: #f5f4fa;
 
-  @media screen and (min-width: 768px) and (max-width: 1999px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
   }
@@ -114,7 +113,7 @@ h2,
     background-color: $white-collor;
     margin-right: 30px;
 
-    @media screen and (min-width: 768px) and (max-width: 1999px) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
       margin-right: 15px;
       margin-left: 15px;
       width: 44%;

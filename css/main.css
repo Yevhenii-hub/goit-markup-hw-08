@@ -395,19 +395,12 @@ ul {
   color: #2196f3;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo-header,
   .logo-footer {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .logo-header,
-  .logo-footer {
-    margin-left: 109px;
   }
 }
 
@@ -417,7 +410,7 @@ ul {
   color: #212121;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logotyp {
     font-size: 24px;
     line-height: 28px;
@@ -436,7 +429,7 @@ ul {
   font-size: 14px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-top a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -481,7 +474,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .telefon {
     padding-top: 0px;
     padding-bottom: 21px;
@@ -508,7 +501,7 @@ ul {
   color: #2196f3;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .email {
     padding-top: 21px;
     padding-bottom: 10px;
@@ -522,7 +515,7 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .flex-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -555,7 +548,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .site-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -583,7 +576,7 @@ ul {
   border-radius: 2px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .line::after {
     width: 47px;
     top: 86px;
@@ -607,7 +600,7 @@ ul {
   border-radius: 2px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .line-portfolio:after {
     width: 75px;
     top: 86px;
@@ -630,7 +623,7 @@ ul {
   margin-right: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-item:last-child {
     padding-right: 0;
     margin-right: 84px;
@@ -721,7 +714,7 @@ use {
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .caption {
     height: 84px;
     font-size: 26px;
@@ -749,7 +742,7 @@ use {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .headline {
     text-align: left;
   }
@@ -767,14 +760,14 @@ use {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .elements {
     padding-bottom: 60px;
     padding-top: 60px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .aggregate {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -784,7 +777,7 @@ use {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .detals {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
@@ -818,7 +811,7 @@ use {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .bacground-icons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -843,7 +836,7 @@ use {
   color: #757575;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .text-aggregate {
     text-align: left;
     width: 100%;
@@ -864,7 +857,7 @@ use {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section.java {
     display: none;
   }
@@ -945,7 +938,7 @@ h2,
   display: block;
 }
 
-@media screen and (max-width: 1999px) {
+@media screen and (max-width: 1199px) {
   h2,
   .our-team {
     font-size: 28px;
@@ -971,7 +964,6 @@ h2,
           justify-content: center;
   color: #afb1b8;
   fill: currentColor;
-  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1012,7 +1004,7 @@ h2,
   background: #f5f4fa;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .workers {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1056,7 +1048,7 @@ h2,
   margin-right: 30px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .continer .people {
     margin-right: 15px;
     margin-left: 15px;
@@ -1114,7 +1106,7 @@ h2,
   margin-right: 10px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon-envelope {
     height: 18px;
     width: 14px;
@@ -1128,7 +1120,7 @@ h2,
   margin-right: 10px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon-phone {
     height: 18px;
     width: 16px;
@@ -1247,7 +1239,7 @@ h2,
   height: 90px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .box {
     width: 226px;
     display: -webkit-box;
@@ -1287,7 +1279,22 @@ h2,
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 1200px) {
+  .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .column {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .column {
     width: calc((100% - 3 * 30px) / 3);
     margin-right: 30px;
@@ -1299,7 +1306,7 @@ h2,
   margin-right: 0px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .column:nth-last-child(2n + 1) {
     margin-right: 30px;
   }
@@ -1330,7 +1337,7 @@ h2,
   padding-bottom: 94px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .regular {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1355,6 +1362,8 @@ h2,
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: inherit;
+        flex-wrap: inherit;
   }
 }
 
@@ -1398,7 +1407,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .images {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1434,7 +1443,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .item {
     width: calc((100% - 30px) / 2);
     margin: 7px;
@@ -1498,7 +1507,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .img {
     width: 100%;
   }
@@ -1588,7 +1597,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .button-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1643,11 +1652,19 @@ h2 .our-clients {
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-adress {
     margin-left: 76px;
     margin-top: 60px;
     margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-adress {
+    margin-left: 15px;
+    margin-right: 70px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1662,17 +1679,10 @@ h2 .our-clients {
   padding-top: 60px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo-footer,
   .logo-second {
     font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .logo-footer,
-  .logo-second {
-    margin-left: 31px;
   }
 }
 
@@ -1681,7 +1691,7 @@ h2 .our-clients {
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo-second {
     font-size: 24px;
   }
@@ -1700,7 +1710,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-nav {
     margin-bottom: 8px;
   }
@@ -1716,7 +1726,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-nav:last-child {
     margin-bottom: 60px;
   }
@@ -1731,10 +1741,16 @@ h2 .our-clients {
           align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-messenger {
     margin-top: 65px;
     margin-right: 65px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-messenger {
+    margin-right: 80px;
   }
 }
 
@@ -1746,7 +1762,7 @@ h2 .our-clients {
   margin-right: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .position {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1774,10 +1790,16 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-text {
     font-size: 14px;
     letter-spacing: 0.03em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-text {
+    margin-right: 18px;
   }
 }
 
@@ -1798,11 +1820,12 @@ h2 .our-clients {
 
 @media screen and (min-width: 1200px) {
   .email-footer {
+    margin-right: 4px;
     width: 358px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .email-footer {
     width: 450px;
   }
@@ -1833,7 +1856,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (max-width: 1999px) {
+@media screen and (max-width: 1199px) {
   .disc {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1861,7 +1884,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1888,7 +1911,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-mess {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1909,7 +1932,7 @@ h2 .our-clients {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .top {
     text-align: center;
     font-size: 24px;
@@ -1920,6 +1943,12 @@ h2 .our-clients {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 1200px) {
+  .small {
+    width: 216px;
+  }
 }
 
 .button-footer {
@@ -1948,16 +1977,34 @@ h2 .our-clients {
   outline: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .button-footer {
     margin-bottom: 60px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 1200px) {
+  .button-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-end {
     margin-left: 166px;
     margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
