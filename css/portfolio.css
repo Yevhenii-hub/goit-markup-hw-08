@@ -1995,4 +1995,16 @@ h2 .our-clients {
     margin-left: 82px;
   }
 }
+
+.team-foto {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=portfolio.css.map */

@@ -12,47 +12,6 @@
     /> -->
   </head>
   <body>
-    <!--шапка страницы и навигация-->
-    <!-- <header class="headerr">
-      <div class="continer">
-        <nav class="flex-header">
-          <a class="header-logo" href="">
-            <span class="logo-header">Web </span
-            ><span class="logotyp">studio</span>
-          </a>
-          <ul class="site-nav list items">
-            <li class="header-item">
-              <a href="./index.html" class="nav">Студиa</a>
-            </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="nav line-portfolio"
-                >Портфолио</a
-              >
-            </li>
-            <li class="header-item"><a href="" class="nav">Контакты</a></li>
-          </ul>
-
-          <ul class="auth-nav list items">
-            <li class="header-item-second">
-              <a href="mailto:info@devstudio.com" class="email">
-                <svg class="icon-envelope">
-                  <use href="./images/symbol-defsnew.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="header-item-second">
-              <a href="tel:+380961111111" class="telefon">
-                <svg class="icon-phone">
-                  <use href="./images/symbol-defsnew.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header> -->
     <header class="header-top">
       <div class="continer">
         <nav class="flex-header">
@@ -122,7 +81,65 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/texnocriak.jpg" alt="Лаптоп" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/technocrack/mobile/technocrack.webp    1x,
+                        ./images/help/portfolio/technocrack/mobile/technocrack@2x.webp 2x,
+                        ./images/help/portfolio/technocrack/mobile/technocrack@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/technocrack/tablet/technocrack.webp    1x,
+                        ./images/help/portfolio/technocrack/tablet/technocrack@2x.webp 2x,
+                        ./images/help/portfolio/technocrack/tablet/technocrack@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/technocrack/tablet/technocrack.jpg    1x,
+                        ./images/help/portfolio/technocrack/tablet/technocrack@2x.jpg 2x,
+                        ./images/help/portfolio/technocrack/tablet/technocrack@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/technocrack/laptop/technocrack.webp    1x,
+                        ./images/help/portfolio/technocrack/laptop/technocrack@2x.webp 2x,
+                        ./images/help/portfolio/technocrack/laptop/technocrack@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/technocrack/laptop/technocrack.jpg    1x,
+                        ./images/help/portfolio/technocrack/laptop/technocrack@2x.jpg 2x,
+                        ./images/help/portfolio/technocrack/laptop/technocrack@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/technocrack/mobile/technocrack.jpg    1x,
+                        ./images/help/portfolio/technocrack/mobile/technocrack@2x.jpg 2x,
+                        ./images/help/portfolio/technocrack/mobile/technocrack@3x.jpg 3x
+                      "
+                      src="./images/portfolio/technocrack/mobile/technocrack.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+
+                  <!-- <img src="./images/texnocriak.jpg" alt="Лаптоп" class="img" /> -->
 
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
@@ -139,11 +156,68 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/poster/mobile/poster.webp    1x,
+                        ./images/help/portfolio/poster/mobile/poster@2x.webp 2x,
+                        ./images/help/portfolio/poster/mobile/poster@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/poster/tablet/poster.webp    1x,
+                        ./images/help/portfolio/poster/tablet/poster@2x.webp 2x,
+                        ./images/help/portfolio/poster/tablet/poster@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/poster/tablet/poster.jpg    1x,
+                        ./images/help/portfolio/poster/tablet/poster@2x.jpg 2x,
+                        ./images/help/portfolio/poster/tablet/poster@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/poster/laptop/poster.webp    1x,
+                        ./images/help/portfolio/poster/laptop/poster@2x.webp 2x,
+                        ./images/help/portfolio/poster/laptop/poster@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/poster/laptop/poster.jpg    1x,
+                        ./images/help/portfolio/poster/laptop/poster@2x.jpg 2x,
+                        ./images/help/portfolio/poster/laptop/poster@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/poster/mobile/poster.jpg    1x,
+                        ./images/help/portfolio/poster/mobile/poster@2x.jpg 2x,
+                        ./images/help/portfolio/poster/mobile/poster@3x.jpg 3x
+                      "
+                      src="./images/portfolio/poster/mobile/poster.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img
                     src="./images/img001.jpg"
                     alt="Баскетболисты"
                     class="img"
-                  />
+                  /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -159,11 +233,68 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/restaurant/mobile/restaurant.webp    1x,
+                        ./images/help/portfolio/restaurant/mobile/restaurant@2x.webp 2x,
+                        ./images/help/portfolio/restaurant/mobile/restaurant@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/restaurant/tablet/restaurant.webp    1x,
+                        ./images/help/portfolio/restaurant/tablet/restaurant@2x.webp 2x,
+                        ./images/help/portfolio/restaurant/tablet/restaurant@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/restaurant/tablet/restaurant.jpg    1x,
+                        ./images/help/portfolio/restaurant/tablet/restaurant@2x.jpg 2x,
+                        ./images/help/portfolio/restaurant/tablet/restaurant@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/restaurant/laptop/restaurant.webp    1x,
+                        ./images/help/portfolio/restaurant/laptop/restaurant@2x.webp 2x,
+                        ./images/help/portfolio/restaurant/laptop/restaurant@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/restaurant/laptop/restaurant.jpg    1x,
+                        ./images/help/portfolio/restaurant/laptop/restaurant@2x.jpg 2x,
+                        ./images/help/portfolio/restaurant/laptop/restaurant@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/restaurant/mobile/restaurant.jpg    1x,
+                        ./images/help/portfolio/restaurant/mobile/restaurant@2x.jpg 2x,
+                        ./images/help/portfolio/restaurant/mobile/restaurant@3x.jpg 3x
+                      "
+                      src="./images/portfolio/restaurant/mobile/restaurant.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img
                     src="./images/img002.jpg"
                     alt="Емблема ресторана"
                     class="img"
-                  />
+                  /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -177,7 +308,64 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/img003.jpg" alt="Наушники" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectprime/mobile/projectprime.webp    1x,
+                        ./images/help/portfolio/projectprime/mobile/projectprime@2x.webp 2x,
+                        ./images/help/portfolio/projectprime/mobile/projectprime@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectprime/tablet/projectprime.webp    1x,
+                        ./images/help/portfolio/projectprime/tablet/projectprime@2x.webp 2x,
+                        ./images/help/portfolio/projectprime/tablet/projectprime@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectprime/tablet/projectprime.jpg    1x,
+                        ./images/help/portfolio/projectprime/tablet/projectprime@2x.jpg 2x,
+                        ./images/help/portfolio/projectprime/tablet/projectprime@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectprime/laptop/projectprime.webp    1x,
+                        ./images/help/portfolio/projectprime/laptop/projectprime@2x.webp 2x,
+                        ./images/help/portfolio/projectprime/laptop/projectprime@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectprime/laptop/projectprime.jpg    1x,
+                        ./images/help/portfolio/projectprime/laptop/projectprime@2x.jpg 2x,
+                        ./images/help/portfolio/projectprime/laptop/projectprime@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/projectprime/mobile/projectprime.jpg    1x,
+                        ./images/help/portfolio/projectprime/mobile/projectprime@2x.jpg 2x,
+                        ./images/help/portfolio/projectprime/mobile/projectprime@3x.jpg 3x
+                      "
+                      src="./images/portfolio/projectprime/mobile/projectprime.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img src="./images/img003.jpg" alt="Наушники" class="img" /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -191,7 +379,64 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/img004.jpg" alt="Коробки" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectboxes/mobile/projectboxes.webp    1x,
+                        ./images/help/portfolio/projectboxes/mobile/projectboxes@2x.webp 2x,
+                        ./images/help/portfolio/projectboxes/mobile/projectboxes@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectboxes/tablet/projectboxes.webp    1x,
+                        ./images/help/portfolio/projectboxes/tablet/projectboxes@2x.webp 2x,
+                        ./images/help/portfolio/projectboxes/tablet/projectboxes@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectboxes/tablet/projectboxes.jpg    1x,
+                        ./images/help/portfolio/projectboxes/tablet/projectboxes@2x.jpg 2x,
+                        ./images/help/portfolio/projectboxes/tablet/projectboxes@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectboxes/laptop/projectboxes.webp    1x,
+                        ./images/help/portfolio/projectboxes/laptop/projectboxes@2x.webp 2x,
+                        ./images/help/portfolio/projectboxes/laptop/projectboxes@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectboxes/laptop/projectboxes.jpg    1x,
+                        ./images/help/portfolio/projectboxes/laptop/projectboxes@2x.jpg 2x,
+                        ./images/help/portfolio/projectboxes/laptop/projectboxes@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/projectboxes/mobile/projectboxes.jpg    1x,
+                        ./images/help/portfolio/projectboxes/mobile/projectboxes@2x.jpg 2x,
+                        ./images/help/portfolio/projectboxes/mobile/projectboxes@3x.jpg 3x
+                      "
+                      src="./images/portfolio/projectboxes/mobile/projectboxes.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img src="./images/img004.jpg" alt="Коробки" class="img" /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -205,7 +450,64 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/img005.jpg" alt="Монитор" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders.webp    1x,
+                        ./images/help/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders@2x.webp 2x,
+                        ./images/help/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/inspirationhasnoborders/tablet/inspirationhasnoborders.webp    1x,
+                        ./images/help/portfolio/inspirationhasnoborders/tablet/inspirationhasnoborders@2x.webp 2x,
+                        ./images/help/portfolio/inspirationhasnoborders/tablet/inspirationhasnoborders@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/inspirationhasnoborders/tablet/inspirationhasnoborders.jpg    1x,
+                        ./images/help/portfolio/inspirationhasnoborders/tablet/inspirationhasnoborders@2x.jpg 2x,
+                        ./images/help/portfolio/inspirationhasnoborders/tablet/inspirationhasnoborders@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/inspirationhasnoborders/laptop/inspirationhasnoborders.webp    1x,
+                        ./images/help/portfolio/inspirationhasnoborders/laptop/inspirationhasnoborders@2x.webp 2x,
+                        ./images/help/portfolio/inspirationhasnoborders/laptop/inspirationhasnoborders@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/inspirationhasnoborders/laptop/inspirationhasnoborders.jpg    1x,
+                        ./images/help/portfolio/inspirationhasnoborders/laptop/inspirationhasnoborders@2x.jpg 2x,
+                        ./images/help/portfolio/inspirationhasnoborders/laptop/inspirationhasnoborders@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders.jpg    1x,
+                        ./images/help/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders@2x.jpg 2x,
+                        ./images/help/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders@3x.jpg 3x
+                      "
+                      src="./images/portfolio/inspirationhasnoborders/mobile/inspirationhasnoborders.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img src="./images/img005.jpg" alt="Монитор" class="img" /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -219,7 +521,65 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/img006.jpg" alt="Книжка" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/limitededition/mobile/limitededition.webp    1x,
+                        ./images/help/portfolio/limitededition/mobile/limitededition@2x.webp 2x,
+                        ./images/help/portfolio/limitededition/mobile/limitededition@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/limitededition/tablet/limitededition.webp    1x,
+                        ./images/help/portfolio/limitededition/tablet/limitededition@2x.webp 2x,
+                        ./images/help/portfolio/limitededition/tablet/limitededition@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/limitededition/tablet/limitededition.jpg    1x,
+                        ./images/help/portfolio/limitededition/tablet/limitededition@2x.jpg 2x,
+                        ./images/help/portfolio/limitededition/tablet/limitededition@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/limitededition/laptop/limitededition.webp    1x,
+                        ./images/help/portfolio/limitededition/laptop/limitededition@2x.webp 2x,
+                        ./images/help/portfolio/limitededition/laptop/limitededition@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/limitededition/laptop/limitededition.jpg    1x,
+                        ./images/help/portfolio/limitededition/laptop/limitededition@2x.jpg 2x,
+                        ./images/help/portfolio/limitededition/laptop/limitededition@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/limitededition/mobile/limitededition.jpg    1x,
+                        ./images/help/portfolio/limitededition/mobile/limitededition@2x.jpg 2x,
+                        ./images/help/portfolio/limitededition/mobile/limitededition@3x.jpg 3x
+                      "
+                      src="./images/help/portfolio/limitededition/mobile/limitededition.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+
+                  <!-- <img src="./images/img006.jpg" alt="Книжка" class="img" /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -233,7 +593,64 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/img007.jpg" alt="Бирка" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectlab/mobile/projectlab.webp    1x,
+                        ./images/help/portfolio/projectlab/mobile/projectlab@2x.webp 2x,
+                        ./images/help/portfolio/projectlab/mobile/projectlab@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectlab/tablet/projectlab.webp    1x,
+                        ./images/help/portfolio/projectlab/tablet/projectlab@2x.webp 2x,
+                        ./images/help/portfolio/projectlab/tablet/projectlab@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectlab/tablet/projectlab.jpg    1x,
+                        ./images/help/portfolio/projectlab/tablet/projectlab@2x.jpg 2x,
+                        ./images/help/portfolio/projectlab/tablet/projectlab@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectlab/laptop/projectlab.webp    1x,
+                        ./images/help/portfolio/projectlab/laptop/projectlab@2x.webp 2x,
+                        ./images/help/portfolio/projectlab/laptop/projectlab@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/projectlab/laptop/projectlab.jpg    1x,
+                        ./images/help/portfolio/projectlab/laptop/projectlab@2x.jpg 2x,
+                        ./images/help/portfolio/projectlab/laptop/projectlab@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/projectlab/mobile/projectlab.jpg    1x,
+                        ./images/help/portfolio/projectlab/mobile/projectlab@2x.jpg 2x,
+                        ./images/help/portfolio/projectlab/mobile/projectlab@3x.jpg 3x
+                      "
+                      src="./images/help/portfolio/projectlab/mobile/projectlab.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img src="./images/img007.jpg" alt="Бирка" class="img" /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -247,7 +664,64 @@
             <li class="item">
               <a class="item-links" href="">
                 <div class="technical">
-                  <img src="./images/img008.jpg" alt="Ноутбук" class="img" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/help/portfolio/growingbusiness/mobile/growingbusiness.webp    1x,
+                        ./images/help/portfolio/growingbusiness/mobile/growingbusiness@2x.webp 2x,
+                        ./images/help/portfolio/growingbusiness/mobile/growingbusiness@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/growingbusiness/tablet/growingbusiness.webp    1x,
+                        ./images/help/portfolio/growingbusiness/tablet/growingbusiness@2x.webp 2x,
+                        ./images/help/portfolio/growingbusiness/tablet/growingbusiness@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/growingbusiness/tablet/growingbusiness.jpg    1x,
+                        ./images/help/portfolio/growingbusiness/tablet/growingbusiness@2x.jpg 2x,
+                        ./images/help/portfolio/growingbusiness/tablet/growingbusiness@3x.jpg 3x
+                      "
+                      media="(max-width: 1169px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/growingbusiness/laptop/growingbusiness.webp    1x,
+                        ./images/help/portfolio/growingbusiness/laptop/growingbusiness@2x.webp 2x,
+                        ./images/help/portfolio/growingbusiness/laptop/growingbusiness@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1170px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/help/portfolio/growingbusiness/laptop/growingbusiness.jpg    1x,
+                        ./images/help/portfolio/growingbusiness/laptop/growingbusiness@2x.jpg 2x,
+                        ./images/help/portfolio/growingbusiness/laptop/growingbusiness@3x.jpg 3x
+                      "
+                      media="(min-width: 1170px)"
+                    />
+                    <img
+                      class="project-img"
+                      srcset="
+                        ./images/help/portfolio/growingbusiness/mobile/growingbusiness.jpg    1x,
+                        ./images/help/portfolio/growingbusiness/mobile/growingbusiness@2x.jpg 2x,
+                        ./images/help/portfolio/growingbusiness/mobile/growingbusiness@3x.jpg 3x
+                      "
+                      src="./images/help/portfolio/growingbusiness/mobile/growingbusiness.jpg"
+                      alt="Технокряк"
+                      aria-label="Картинка проекта Технокряк"
+                      width="450"
+                    />
+                  </picture>
+                  <!-- <img src="./images/img008.jpg" alt="Ноутбук" class="img" /> -->
                   <p class="texnocriak">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
