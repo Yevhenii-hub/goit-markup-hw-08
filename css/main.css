@@ -404,6 +404,13 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo-header,
+  .logo-footer {
+    margin-left: 109px;
+  }
+}
+
 .logotyp {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -465,6 +472,13 @@ ul {
 .telefon:hover {
   fill: currentColor;
   color: #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .telefon {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1999px) {
@@ -554,6 +568,7 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 111px;
   }
 }
 
@@ -644,8 +659,18 @@ use {
   padding-left: 0px;
 }
 
+@media screen and (min-width: 1200px) {
+  .auth-nav {
+    margin: 0;
+    padding: 0;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
 .logotyp {
-  margin-right: 85px;
+  margin-right: 78px;
 }
 
 .logotyp .logo-header {
@@ -1641,6 +1666,13 @@ h2 .our-clients {
   .logo-footer,
   .logo-second {
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-footer,
+  .logo-second {
+    margin-left: 31px;
   }
 }
 

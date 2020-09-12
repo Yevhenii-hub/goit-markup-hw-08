@@ -39,6 +39,11 @@
     color: #2196f3;
   }
 
+  @media screen and (min-width: 1200px) {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
   @media screen and (min-width: 768px) and (max-width: 1999px) {
     padding-top: 0px;
     padding-bottom: 21px;
@@ -57,6 +62,11 @@
   &:hover {
     fill: currentColor;
     color: #2196f3;
+  }
+
+  @media screen and (min-width: 1200px) {
+    // padding-top: 4px;
+    // padding-bottom: 2px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1999px) {
@@ -104,6 +114,7 @@
 
   @media screen and (min-width: 1200px) {
     display: flex;
+    margin-right: 111px;
   }
 }
 // @extend %df???
@@ -182,9 +193,15 @@ use {
 .auth-nav {
   margin-left: auto;
   padding-left: 0px;
+
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+  }
 }
 .logotyp {
-  margin-right: 85px;
+  margin-right: 78px;
 
   .logo-header {
     padding: 25px 0;
