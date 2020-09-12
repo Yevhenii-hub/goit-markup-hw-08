@@ -1,3 +1,19 @@
+.footer-adress {
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    margin-left: 76px;
+    margin-top: 60px;
+    margin-right: 165px;
+  }
+}
+
+// @media screen and (min-width: 768px) and (max-width: 1999px) {
+//   display: flex;
+//   flex-wrap: wrap;
+//   text-align: center;
+
+//   height: 603px;
+// }
+
 .logo-footer,
 .logo-second {
   font-family: Raleway;
@@ -7,11 +23,19 @@
   line-height: 31px;
   display: inline-block;
   padding-top: 60px;
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    font-size: 24px;
+  }
 }
 
 .logo-second {
   font-size: 26px;
   color: #ffffff;
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    font-size: 24px;
+  }
 }
 
 .footer-nav {
@@ -24,10 +48,18 @@
     margin-bottom: 8px;
   }
 
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    margin-bottom: 8px;
+  }
+
   &:last-child {
     margin-bottom: 0;
 
     @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1999px) {
       margin-bottom: 60px;
     }
   }
@@ -36,12 +68,21 @@
 .footer-messenger {
   justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    margin-top: 65px;
+    margin-right: 65px;
+  }
 }
 .position {
   display: block;
 
   align-items: center;
   margin-right: 0;
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    flex-wrap: wrap;
+  }
 
   @media screen and (min-width: 1200px) {
     flex-wrap: wrap;
@@ -58,6 +99,11 @@
     font-size: 14px;
     letter-spacing: 0.03em;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
 }
 
 .email-footer {
@@ -68,6 +114,10 @@
   height: 50px;
   @media screen and (min-width: 1200px) {
     width: 358px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    width: 450px;
   }
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -93,7 +143,13 @@
   @media screen and (min-width: 1200px) {
     display: flex;
   }
-  @media screen and (max-width: 767px) {
+
+  // @media screen and (min-width: 768px) and (max-width: 1999px) {
+  //   display: flex;
+  //   justify-content: center;
+  //   margin-bottom: 60px;
+  // }
+  @media screen and (max-width: 1999px) {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
@@ -108,6 +164,14 @@
   @media screen and (min-width: 1200px) {
     display: flex;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    height: 603px;
+  }
   @media screen and (max-width: 767px) {
     text-align: center;
 
@@ -119,6 +183,9 @@
   @media screen and (min-width: 1200px) {
     display: flex;
   }
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    display: flex;
+  }
 }
 .top {
   font-style: normal;
@@ -127,6 +194,12 @@
   color: $white-collor;
 
   @media screen and (min-width: 767px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    text-align: center;
+
     font-size: 24px;
   }
 }
@@ -157,4 +230,15 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   outline: none;
+
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    margin-bottom: 60px;
+  }
+}
+
+.footer-end {
+  @media screen and (min-width: 768px) and (max-width: 1999px) {
+    margin-left: 166px;
+    margin-top: 60px;
+  }
 }

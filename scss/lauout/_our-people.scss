@@ -29,16 +29,20 @@ h2,
   color: #afb1b8;
   fill: currentColor;
 
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    width: 44px;
-  }
+  color: #ffffff;
+  display: flex;
+  width: 44px;
 
-  @media screen and (max-width: 767px) {
-    color: #ffffff;
-    display: flex;
-    width: 44px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   display: flex;
+  //   width: 44px;
+  // }
+
+  // @media screen and (max-width: 1999px) {
+  //   color: #ffffff;
+  //   display: flex;
+  //   width: 44px;
+  // }
 
   &:hover {
     border-radius: 50%;
