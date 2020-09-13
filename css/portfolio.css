@@ -437,6 +437,52 @@ ul {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .header-top {
+    position: relative;
+  }
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-container {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rosybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+.menu-container.is-open {
+  display: none;
+}
+
 .nav {
   font-family: Roboto;
   font-style: normal;
