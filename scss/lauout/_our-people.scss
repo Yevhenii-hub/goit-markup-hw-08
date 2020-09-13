@@ -1,5 +1,4 @@
-h2,
-.our-team {
+.our-team.perfect {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -111,7 +110,6 @@ h2,
 .continer {
   .people {
     background-color: $white-collor;
-    margin-right: 30px;
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       margin-right: 15px;
@@ -121,6 +119,7 @@ h2,
     }
 
     @media screen and (min-width: 1200px) {
+      margin-right: 30px;
       width: calc((100% - 90px) / 3);
     }
     @media screen and(max-width:768px) {

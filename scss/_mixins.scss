@@ -3,3 +3,7 @@
 //   align-items: center;
 //   justify-content: center;
 // }
+@mixin svg($width: 70px, $height: 70px) {
+  width: $width;
+  height: $height;
+}
