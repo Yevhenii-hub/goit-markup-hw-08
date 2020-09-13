@@ -552,6 +552,15 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) {
+  .nav {
+    margin-right: 50px;
+  }
+  .nav :first-child {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .nav :first-child {
     padding-top: 50px;
@@ -562,7 +571,7 @@ ul {
   color: #2196f3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .first {
     padding-top: 60px;
   }
@@ -627,10 +636,17 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .email {
+    margin-right: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .email {
     padding: 0;
     display: block;
+    margin-bottom: 10px;
   }
 }
 
@@ -694,6 +710,13 @@ ul {
   border-radius: 2px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .line::after {
+    width: 47px;
+    top: 78px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .line::after {
     width: 48px;
@@ -709,6 +732,13 @@ ul {
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .line-portfolio:after {
+    width: 75px;
+    top: 78px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -729,7 +759,6 @@ ul {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-item:last-child {
     padding-right: 0;
-    margin-right: 84px;
   }
 }
 
@@ -743,7 +772,6 @@ ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 50px;
 }
 
 .header-item-second:last-child {
@@ -775,17 +803,21 @@ use {
         -ms-flex-align: baseline;
             align-items: baseline;
     margin-left: 120px;
+    padding-top: 32px;
+    scroll-padding-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .auth-nav {
     display: block;
+    text-align: start;
+    padding-top: 20px;
   }
 }
 
 .logotyp {
-  margin-right: 78px;
+  margin-right: 66px;
 }
 
 .logotyp .logo-header {
@@ -1147,10 +1179,23 @@ h2,
   width: 100%;
   margin-right: 30px;
   margin-bottom: 30px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .column {
+    width: calc(100%-30px / 2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .column {
+    width: calc(100%-150px / 5);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1205,6 +1250,8 @@ h2,
 .regular {
   padding-top: 94px;
   padding-bottom: 94px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
