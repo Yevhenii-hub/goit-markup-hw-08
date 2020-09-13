@@ -517,6 +517,14 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .window {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .logo-header {
     padding: 0;
@@ -585,6 +593,13 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .telefon {
+    padding: 0;
+    display: block;
+  }
+}
+
 .email {
   color: #757575;
   padding-top: 32px;
@@ -609,6 +624,13 @@ ul {
   .email {
     display: block;
     padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .email {
+    padding: 0;
+    display: block;
   }
 }
 
@@ -753,6 +775,12 @@ use {
         -ms-flex-align: baseline;
             align-items: baseline;
     margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .auth-nav {
+    display: block;
   }
 }
 
