@@ -659,6 +659,7 @@ use {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    margin-left: 120px;
   }
 }
 
@@ -707,7 +708,7 @@ use {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section.service {
-    max-width: 768px;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -788,6 +789,9 @@ use {
   border: none;
   border-radius: 4px;
   color: #ffffff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .btn {
@@ -802,6 +806,9 @@ use {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -882,6 +889,10 @@ use {
   }
 }
 
+.detals.detals.detals {
+  margin-bottom: 30px;
+}
+
 .icon-centr {
   height: 65px;
 }
@@ -927,17 +938,36 @@ use {
 }
 
 .text-aggregate {
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.03em;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .text-aggregate {
+    width: 450px;
+    height: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .text-aggregate {
-    text-align: left;
-    width: 100%;
+    width: 354px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-aggregate {
+    width: 270px;
+    height: 75px;
   }
 }
 
@@ -1189,6 +1219,10 @@ h2,
   padding-bottom: 30px;
 }
 
+.people:last-child {
+  margin-right: 0;
+}
+
 .people li {
   margin-right: 10px;
 }
@@ -1372,7 +1406,8 @@ h2,
 }
 
 .column {
-  width: calc((100% - 30px) / 2);
+  width: calc(150px / 6);
+  width: 100%;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -1513,6 +1548,7 @@ h2 .our-clients {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0;
+    margin-bottom: 60px;
   }
 }
 
@@ -1537,7 +1573,7 @@ h2 .our-clients {
 
 @media screen and (max-width: 767px) {
   .item {
-    width: 450px;
+    width: 100%;
   }
 }
 
@@ -1545,6 +1581,9 @@ h2 .our-clients {
   .item {
     width: calc((100% - 30px) / 2);
     margin: 7px;
+  }
+  .item:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -1637,8 +1676,10 @@ h2 .our-clients {
           transform: translateY(0);
 }
 
-.item:nth-child(3n) {
-  margin-right: 0;
+@media screen and (min-width: 1200px) {
+  .item:nth-child(3n) {
+    margin-right: 0;
+  }
 }
 
 .item-title {
@@ -2361,5 +2402,13 @@ h2 .our-clients {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.titles {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
 }
 /*# sourceMappingURL=main.css.map */

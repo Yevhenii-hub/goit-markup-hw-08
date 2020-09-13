@@ -56,6 +56,9 @@
     margin: 15px;
   }
 }
+.detals.detals.detals {
+  margin-bottom: 30px;
+}
 
 .icon-centr {
   height: 65px;
@@ -95,15 +98,30 @@
 }
 
 .text-aggregate {
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.03em;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: left;
+  width: 100%;
+
+  @media screen and (max-width: 767px) {
+    width: 450px;
+    height: 50px;
+  }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    text-align: left;
-    width: 100%;
+    width: 354px;
+    height: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 75px;
   }
 
   &:last-child {
